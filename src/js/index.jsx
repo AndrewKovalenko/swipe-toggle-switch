@@ -4,6 +4,8 @@ import React from 'react';
 import Hammer from 'hammerjs';
 import reactDOM from 'react-dom';
 
+import './../less/swipe-toggle-switch.less';
+
 const TWENTY_PERSENT = 0.2, LEFT_SWIPE = 2, RIGHT_SWIPE = 4;
 let swipeDistanceToSwitch;
 

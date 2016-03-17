@@ -1,18 +1,10 @@
+@import './constants';
+@import './mixins';
+
+
 .switch{
-  @itemHeight: 50px;
-
-  @switchItemWidth: 100%;
-  @transitionTime: 0.4s;
-  @switchOffBackground: #e18f8c;
-  @borderColor: #dddddd;
-  @switchOnbackground: #8ce196;
-  @toggleStatusTextColor: #fff;
-  @leverBackgroundColor: #fff;
-
-
   height: @itemHeight;
   width: @switchItemWidth;
-
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 
   .switch-core{

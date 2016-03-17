@@ -20,6 +20,10 @@ module.exports = {
           presets: ['react', 'es2015']
         },
         include: __dirname + '/src'
+      },
+      {
+        test: /\.less$/,
+        loader: 'style!css!less'
       }
     ]
   }
