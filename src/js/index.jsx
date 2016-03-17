@@ -20,6 +20,7 @@ function stopPropagation(event){
 
 export default class ToggleSwitch extends React.Component {
   constructor(){
+    super();
     this.toggleSwitch = this.toggleSwitch.bind(this);
   }
 
