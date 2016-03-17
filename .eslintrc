@@ -1,0 +1,16 @@
+{
+  "extends": "eslint:recommended",
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "semi": [2, "always"],
+    "quotes": [1, "single"]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "swipe-toggle-switch",
+  "version": "0.0.1",
+  "description": "ReactJs swipe toggle switch component",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AndrewKovalenko/swipe-toggle-switch.git"
+  },
+  "keywords": [
+    "react",
+    "toggle",
+    "switch"
+  ],
+  "author": "Andrii Kovalenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewKovalenko/swipe-toggle-switch/issues"
+  },
+  "homepage": "https://github.com/AndrewKovalenko/swipe-toggle-switch#readme",
+  "dependencies": {
+    "hammerjs": "^2.0.6",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}
