@@ -39,6 +39,7 @@
     "less-loader": "^2.2.2",
     "npm": "^3.8.1",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.14"
+    "webpack": "^1.12.14",
+    "webpack-node-externals": "^1.0.0"
   }
 }

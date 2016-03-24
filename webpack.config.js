@@ -1,5 +1,7 @@
 'use strict';
 
+var nodeExternals = require('webpack-node-externals');
+
 module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx']
@@ -9,6 +11,7 @@ module.exports = {
     path: './build',
     filename: 'swipe-toggle-switch.js'
   },
+  externals: [nodeExternals()],
   module: {
     loaders:[
       {
