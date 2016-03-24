@@ -2,7 +2,7 @@
 
 import { render } from 'react-dom';
 import React from 'react';
-import SwipeToggleSwitch from './../../build/swipe-toggle-switch.js';
+import SwipeToggleSwitch from './../build/swipe-toggle-switch.js';
 
 class Example extends React.Component {
   render(){
@@ -15,4 +15,4 @@ class Example extends React.Component {
   }
 }
 
-render(Example, document.body);
+render(<Example />, document.getElementById('application'));

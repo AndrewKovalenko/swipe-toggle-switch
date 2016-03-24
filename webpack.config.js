@@ -9,7 +9,8 @@ module.exports = {
   entry: './src/js/index.jsx',
   output: {
     path: './build',
-    filename: 'swipe-toggle-switch.js'
+    filename: 'swipe-toggle-switch.js',
+    libraryTarget: 'commonjs2'
   },
   externals: [nodeExternals()],
   module: {
@@ -20,7 +21,8 @@ module.exports = {
         loader: 'babel',
         query: {
           cacheDirectory: true,
-          presets: ['react', 'es2015']
+          presets: ['react', 'es2015'],
+          plugins: ['add-module-exports']
         },
         include: __dirname + '/src'
       },
