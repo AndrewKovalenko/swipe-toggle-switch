@@ -3,6 +3,9 @@ This is small and simple toggle switch component for [reactjs](https://facebook.
 
 *NOTE: this library is distributed ONLY as [commonjs](http://wiki.commonjs.org/wiki/Modules/1.1) module. It does not export component in global namespace and never will!*
 
+![Turned on](/example/images/turned-on.png?raw=true)
+![Turned off](/example/images/turned-off.png?raw=true)
+
 ### Install and use
 
 `npm install swipe-toggle-switch`
