@@ -4,7 +4,6 @@
   "description": "ReactJs swipe toggle switch component",
   "main": "src/index.js",
   "scripts": {
-    "test": "npm test"
   },
   "repository": {
     "type": "git",
@@ -15,7 +14,7 @@
     "toggle",
     "switch"
   ],
-  "author": "Andrii Kovalenko",
+  "author": "Andrew Kovalenko",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AndrewKovalenko/swipe-toggle-switch/issues"
