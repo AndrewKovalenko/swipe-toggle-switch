@@ -58,10 +58,10 @@ export default class ToggleSwitch extends React.Component {
             className='switch-core' readOnly checked={ this.state.value }/>
           <label htmlFor={`switch-engine-${ uniqStepId }`}  className='switch-item'>
             <div className='status unchecked'>
-              <span className='status-text'>{ this.props.status }</span>
+              <span className='status-text'>{ this.props.offStateText }</span>
             </div>
             <div className='status checked'>
-              <span className='status-text'>{ this.props.status }</span>
+              <span className='status-text'>{ this.props.onStateText }</span>
             </div>
             <div className='lever' ref='lever' onClick={ this.toggleSwitch }>
               <span className='lever-text'>{ this.props.caption }</span>
@@ -73,7 +73,12 @@ export default class ToggleSwitch extends React.Component {
   }
 
   toggleSwitch(event) {
-    this.setState({ value: !this.state.value });
+    let newValue = !this.state.value;
+    this.setState({ value: newValue });
+    this.props.onToggle && typeof this.props.onToggle === 'function' && this.props.onToggle({
+      target: this
+    }, newValue);
+
     event.preventDefault();
   }
 }
