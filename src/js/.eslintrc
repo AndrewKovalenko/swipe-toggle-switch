@@ -1,5 +1,12 @@
 {
   "extends": "../../.eslintrc",
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
     "ecmaFeatures": {
       "jsx": true
     },

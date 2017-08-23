@@ -22,6 +22,7 @@ module.exports = {
         include: __dirname + '/example'
       } 
     ]
-  }
+  },
+  devServer: { inline: true }
 };
 
