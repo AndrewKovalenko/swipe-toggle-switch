@@ -35,8 +35,8 @@ and in the render method of your component
 1. `git clone https://github.com/AndrewKovalenko/swipe-toggle-switch.git`
 2. `cd swipe-toggle-switch`
 3. `npm i`
-4. `webpack`
-5. `webpack --config ./build.example.js`
-6. Open `./example/index.html` in your browser
+4. `npm run build`
+5. `npm run build-example`
+6. Open `./example/index.html` in your browser or run `open example/index.html` if you are on Mac
 
 
